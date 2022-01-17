@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt Sa-Bai</title>
+    <link rel="icon" href="./images/logoIcon.png" type="image/icon type">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div id="logo" onclick="location.href='Index.html';">
+            <img src="./images/logo.png" alt="Logo"></img>
+        </div>
+        <ol id="menu">
+            <a href="Index.html">Behandlinger</a>
+            <a href="Om.html">Om</a>
+            <a href="Kontakt.html">Kontakt</a>
+        </ol>
+    </header>
+    <main>
+        <form>
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" placeholder="Dit navn..">
+            <label for="email">Email adresse:</label>
+            <input type="email" id="email" name="email" placeholder="Din email adresse..">
+            <label for="resevationTime">Ønsket tid:</label>
+            <input type="datetime-local" id="resevationTime" name="resevationTime">
+            <label for="textMessage">Besked:</label>
+            <textarea id="textMessage" name="textMessage"
+                placeholder="Skriv hvilken behandling du ønsker og eventuel besked her.."></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </main>
+    <footer>
+        <div>
+            <img src="images/icon_location.png">
+            <p>Kongevejen 339 B. 2840 Holte</p>
+        </div>
+        <div>
+            <img src="images/icon_phone.png">
+            <p>+45 81 92 05 88</p>
+        </div>
+        <div>
+            <img src="images/icon_email.png">
+            <p>kiriya1@live.dk</p>
+        </div>
+    </footer>
+</body>
+
+</html>
